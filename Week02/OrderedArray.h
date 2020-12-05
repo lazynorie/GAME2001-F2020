@@ -85,9 +85,10 @@ public:
 				m_array[i] = m_array[i + 1];
 			}
 		}
+		m_numElements--; // Always remember to do this!!!
 	}
 
-	m_numElements--; // Always remember to do this!!!
+	
 	// Searching -- Binary Search -- Big O = O(Log N)
 	int search(T searchKey)
 	{
