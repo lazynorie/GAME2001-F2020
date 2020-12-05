@@ -21,12 +21,18 @@
     <ClInclude Include="DoubleEndedLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="DoublyLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="SinglyLinklyTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DoubleEndedLinkListTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DoublyLinkedListTest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

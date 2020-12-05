@@ -139,13 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DoubleEndedLinkListTest.cpp" />
+    <ClCompile Include="DoubleEndedLinkListTest.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="SinglyLinklyTest.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="DoublyLinkedListTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DoubleEndedLinkedList.h" />
+    <ClInclude Include="DoublyLinkedList.h" />
     <ClInclude Include="SinglyLinkedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
